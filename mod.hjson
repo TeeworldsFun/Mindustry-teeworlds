@@ -1,0 +1,8 @@
+{
+    name:"Teeworlds"
+    displayName:"Teeworlds!(Tws/DDNet)"
+    author:FlowerFell-Sans & Ninecloud
+    description:"增加了一些新兵种和道具\nmod还在更新，如果有更好的建议可以加QQ群:834323539"
+    version:"0.6.4"
+    minGameVersion:"135"
+}
