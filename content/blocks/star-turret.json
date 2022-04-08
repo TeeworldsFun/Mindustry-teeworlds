@@ -1,0 +1,33 @@
+{
+	"type": "ItemTurret",
+	"name": "Star On The Sky",
+	"description": "Shot star..",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 19500,
+	"size": 1,
+	"inaccuracy": 12,
+	"reloadTime": 1,
+	"shots": 9,
+	"recoilAmount": 10,
+	"ammoUseEffect": "casing3",
+	"shootCone": 25,
+	"rotateSpeed": 1000,
+	"range": 346,
+	"ammoTypes": {
+		"copper": {
+			"speed": 4.2,
+			"damage": 5,
+			"bulletWidth": 1,
+			"bulletHeight": 1,
+			"shootEffect": "shootBig",
+    	"smokeEffect": "shootBigSmoke"
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 5000 }
+	],
+	"category": "turret",
+	"research": "duo",
+	"shootSound": "bigshot"
+}   
