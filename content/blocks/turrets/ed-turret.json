@@ -1,0 +1,55 @@
+{
+	"type": "LiquidTurret",
+	"name": "Liquid EDremueer",
+	"description": "Error Dremueer.. Teeworlds x Undertale x Mindustry!!!",
+	"size": 1,
+	"squareSprite": false,
+	"requiresWater": false,
+	"range": 1000,
+	"health": 1100,
+	"reloadTime": 3,
+	"shots": 3,
+	"inaccuracy": 0.5,
+	"velocityInaccuracy": 0.5,
+
+	"shootEffect": {
+		"type": "ParticleEffect",
+		"cone": 5,
+		"particles": 5,
+		"length": 500,
+		"lifetime": 50,
+		"interp": "pow5Out",
+		"sizeFrom": 4,
+		"sizeTo": 2,
+		"colorFrom": "596ab8",
+		"colorTo": "596ab825"
+	},
+
+	"ammoTypes": {
+		"oil": {
+			"type": "LiquidBulletType",
+			"liquid": "oil",
+			"speed": 2.2,
+			"damage": 5,
+			"lifetime": 100,
+			"drag": 0.05,
+			"orbSize": 3
+		},
+		"water": {
+			"type": "LiquidBulletType",
+			"liquid": "water",
+			"speed": 8.4,
+			"damage": 2,
+			"lifetime": 500,
+			"drag": 0.0,
+			"orbSize": 4
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 5000 },
+		{ "item": "coal", "amount": 200 }
+	],
+	"category": "turret",
+	"research": "duo",
+	"shootSound": "bigshot"
+}   

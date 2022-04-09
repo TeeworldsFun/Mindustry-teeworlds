@@ -1,0 +1,34 @@
+{
+	"type": "PowerTurret",
+	"name": "John·Johan",
+	"description": "Teeworlds developer! JohnJohan!! Teeworlds x Undertale x Mindustry!!!",
+	"size": 2,
+    "burstSpacing": 2,
+    "powerUse": "1",
+	"range": 1000,
+	"health": 1100,
+	"reloadTime": 3,
+	"shots": 3,
+	"inaccuracy": 0.5,
+	"velocityInaccuracy": 0.5,
+    "spread": 100,
+
+	"shootType": {
+        "type": "LightningBulletType",
+		"lightColor": "bf92f9",
+        "lightning": 3,
+        "lightningLength": 16,
+        "lightningLengthRand": 8,
+        "lightningCone": 25,
+        "lightningColor": "bf92f9",
+        "lightningDamage": 150
+	},
+
+	"requirements": [
+		{ "item": "metaglass", "amount": 4000 },
+		{ "item": "sand", "amount": 2100 }
+	],
+	"category": "turret",
+	"research": "duo",
+	"shootSound": "lasershoot"
+}   

@@ -1,8 +1,8 @@
 {
-    name:"Teeworlds"
-    displayName:"Teeworlds!(Tws/DDNet)"
+    name:"tws"
+    displayName:"Teeworlds Developers Coming!(Tws/DDNet)"
     author:FlowerFell-Sans & Ninecloud
-    description:"增加了一些新兵种和炮塔\nmod还在更新，如果有更好的建议可以加QQ群:834323539"
+    description:"Write some developers of teeworks into the game!"
     version:"0.6.4"
     minGameVersion:"135"
 }

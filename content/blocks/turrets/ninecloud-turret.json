@@ -1,14 +1,14 @@
 {
 	"type": "ItemTurret",
-	"name": "Star On The Sky",
-	"description": "Shot star..",
+	"name": "Ninecloud",
+	"description": "Teeworlds developer: NINECLOUD! Teeworlds x Undertale x Mindustry!!!",
 	"targetAir": true,
 	"targetGround": true,
-	"health": 19500,
-	"size": 1,
+	"health": 5000,
+	"size": 2,
 	"inaccuracy": 12,
-	"reloadTime": 1,
-	"shots": 9,
+	"reloadTime": 3,
+	"shots": 5,
 	"recoilAmount": 10,
 	"ammoUseEffect": "casing3",
 	"shootCone": 25,
@@ -16,16 +16,17 @@
 	"range": 346,
 	"ammoTypes": {
 		"copper": {
-			"speed": 4.2,
-			"damage": 5,
+			"speed": 1.4,
+			"damage": 6,
 			"bulletWidth": 1,
 			"bulletHeight": 1,
 			"shootEffect": "shootBig",
-    	"smokeEffect": "shootBigSmoke"
+    	"smokeEffect": "shootSmallSmoke"
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 5000 }
+		{ "item": "copper", "amount": 500 },
+		{ "item": "coal", "amount": 100 }
 	],
 	"category": "turret",
 	"research": "duo",
