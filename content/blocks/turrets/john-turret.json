@@ -1,17 +1,17 @@
 {
 	"type": "PowerTurret",
 	"name": "John·Johan",
-	"description": "Teeworlds developer! JohnJohan!! Teeworlds x Undertale x Mindustry!!!",
-	"size": 2,
+	"description": "a Fucking Stupid. FUCK YOU JOHN JOHAN",
+	"size": 1,
     "burstSpacing": 2,
-    "powerUse": "1",
+    "powerUse": "0",
 	"range": 1000,
 	"health": 1100,
 	"reloadTime": 3,
 	"shots": 3,
 	"inaccuracy": 0.5,
 	"velocityInaccuracy": 0.5,
-    "spread": 100,
+    "spread": 1,
 
 	"shootType": {
         "type": "LightningBulletType",
@@ -25,8 +25,7 @@
 	},
 
 	"requirements": [
-		{ "item": "metaglass", "amount": 4000 },
-		{ "item": "sand", "amount": 2100 }
+		{ "item": "scrap", "amount": 1 }
 	],
 	"category": "turret",
 	"research": "duo",
